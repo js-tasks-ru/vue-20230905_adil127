@@ -6,7 +6,9 @@
   </head>
   <body>
     <div id="app">
-      <button type="button">0</button>
+<!--      <button type="button" v-on="{click: () => {count++}}">{{count}}</button>-->
+<!--      <button type="button" v-on:click="() => {count++}">{{count}}</button>-->
+      <button type="button" v-on:click="count++">{{count}}</button>
     </div>
 
     <script type="module" src="./script.js"></script>
